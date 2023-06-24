@@ -90,6 +90,7 @@ body {
 
 }
 
+
 .board-row:after {
 
   clear: both;
@@ -134,5 +135,18 @@ body {
   background-color: #e5c0df;
 }
 
+
+@media only screen and (max-width: 600px){
+
+  .welcome{
+  padding: 2px  320px;
+  margin: 2rem  -23rem ;
+  
+  }
+  
+  *{
+    padding-left: 15px;
+  }
+  }
 
 
